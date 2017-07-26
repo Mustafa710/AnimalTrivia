@@ -55,6 +55,7 @@ class ThirdViewController: UIViewController {
         cButton.setImage(correctAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         cLabel.textColor = UIColor.greenColor()
+        print(bLabel)
         
     }
     
