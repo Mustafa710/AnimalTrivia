@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061CEEE91E5A3DFE00C0D4AC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061CEEE81E5A3DFE00C0D4AC /* ThirdViewController.swift */; };
+		0691DF0A1E4FB6B400916B76 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0691DF091E4FB6B400916B76 /* SecondViewController.swift */; };
 		06F02A5D1E11A47F00CCF1B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F02A5C1E11A47F00CCF1B8 /* AppDelegate.swift */; };
 		06F02A5F1E11A47F00CCF1B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F02A5E1E11A47F00CCF1B8 /* ViewController.swift */; };
 		06F02A621E11A47F00CCF1B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F02A601E11A47F00CCF1B8 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061CEEE81E5A3DFE00C0D4AC /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdViewController.swift; path = ../ThirdViewController.swift; sourceTree = "<group>"; };
+		0691DF091E4FB6B400916B76 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		06F02A591E11A47F00CCF1B8 /* AnimalTrivia3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalTrivia3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F02A5C1E11A47F00CCF1B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06F02A5E1E11A47F00CCF1B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 			children = (
 				06F02A5C1E11A47F00CCF1B8 /* AppDelegate.swift */,
 				06F02A5E1E11A47F00CCF1B8 /* ViewController.swift */,
+				0691DF091E4FB6B400916B76 /* SecondViewController.swift */,
+				061CEEE81E5A3DFE00C0D4AC /* ThirdViewController.swift */,
 				06F02A601E11A47F00CCF1B8 /* Main.storyboard */,
 				06F02A661E11A47F00CCF1B8 /* Assets.xcassets */,
 				06F02A681E11A47F00CCF1B8 /* LaunchScreen.storyboard */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0691DF0A1E4FB6B400916B76 /* SecondViewController.swift in Sources */,
 				06F02A5F1E11A47F00CCF1B8 /* ViewController.swift in Sources */,
+				061CEEE91E5A3DFE00C0D4AC /* ThirdViewController.swift in Sources */,
 				06F02A651E11A47F00CCF1B8 /* AnimalTrivia3.xcdatamodeld in Sources */,
 				06F02A5D1E11A47F00CCF1B8 /* AppDelegate.swift in Sources */,
 			);
@@ -293,6 +301,7 @@
 				06F02A701E11A47F00CCF1B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
