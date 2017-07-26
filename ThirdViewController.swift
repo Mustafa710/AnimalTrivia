@@ -4,7 +4,7 @@
 //
 //  Created by Mostafa Taha on 2/19/17.
 //  Copyright © 2017 Mostafa Taha. All rights reserved.
-// test
+
 
 import UIKit
 
@@ -55,7 +55,7 @@ class ThirdViewController: UIViewController {
         cButton.setImage(correctAnswerImage, forState: UIControlState.Normal)
         disableButtons()
         cLabel.textColor = UIColor.greenColor()
-        print("test githup")
+        
     }
     
 
